@@ -1,0 +1,30 @@
+## Imersão NodeJS
+  Introdução
+
+  Camada de aplicação - V8
+
+  NodeJS - Bindings(Node API)
+    Event Loop - Event Queue and Worker Threads(File System, Network)
+
+    Callback
+
+    Single Thread for Event Loop - OS Working with multiple threads.
+
+    Send Request Function(Register Callback) - Event Loop - Database(Callback Function(Request))
+
+  Transformação do JS para execução a partir da Libuv(C++)
+
+  Registro em Background - Funções que dependem de execução externa(background)
+
+  Sequência do código difere da ordem de execução
+
+  Garantir a ordem das funções para assegurar o funcionamento do código
+
+  Promises
+    Pending - estado inicial não finalizado
+
+    Fulfilled - Execução total
+
+    Rejected - Falhou
+
+  Promises com Async/Await
