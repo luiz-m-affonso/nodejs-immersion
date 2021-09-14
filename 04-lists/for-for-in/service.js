@@ -7,10 +7,6 @@ async function getPeople(name) {
   return response.data
 }
 
-getPeople('r2')
-.then(function (result){
-  console.log('Result', result)
-})
-.catch(function (error){
-  console.log('Error', error)
-})
+module.exports = {
+  getPeople
+}
